@@ -6,7 +6,11 @@ using UnityEngine;
 
 public class RotAround : MonoBehaviour
 {
+    //Material
+    //public Material WhirlpoolMat;
+    Material WhirlpoolMat = GetComponent<Renderer>().M_Whirlpool;
 
+    //boat
     public Transform BoatRef;
     private float RotAroundSpeed = 90;
 
@@ -30,7 +34,12 @@ public class RotAround : MonoBehaviour
     public Transform pivotPoint;
     //public Vector3 pivotPoint = Vector3.zero;
 
-    
+
+    private void Start()
+    {
+        
+    }
+
     // Update is called once per frame
     void Update()
     {

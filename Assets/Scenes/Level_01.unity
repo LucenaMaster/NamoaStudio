@@ -2836,6 +2836,11 @@ PrefabInstance:
       propertyPath: pivotPoint.z
       value: -4.05
       objectReference: {fileID: 0}
+    - target: {fileID: 635043045634780434, guid: ae2bc8b458628234485ced690c4fe30a,
+        type: 3}
+      propertyPath: whirlpoolRot
+      value: 
+      objectReference: {fileID: 2100000, guid: d7340e533866f0e448e6057431ac262a, type: 2}
     - target: {fileID: 1443339283670465302, guid: ae2bc8b458628234485ced690c4fe30a,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2906,6 +2911,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4559211813467192415, guid: ae2bc8b458628234485ced690c4fe30a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d7340e533866f0e448e6057431ac262a, type: 2}
     - target: {fileID: 6205686272728391844, guid: ae2bc8b458628234485ced690c4fe30a,
         type: 3}
       propertyPath: m_Name
@@ -2923,7 +2933,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4499273498324671513, guid: ae2bc8b458628234485ced690c4fe30a, type: 3}
-    - {fileID: 7211637224811058047, guid: ae2bc8b458628234485ced690c4fe30a, type: 3}
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1443339283670465302, guid: ae2bc8b458628234485ced690c4fe30a,
