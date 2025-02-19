@@ -97,7 +97,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29ee95108f2f86549a3579e4632b7b41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whirlpoolRot: {fileID: 0}
   BoatRef: {fileID: 0}
   SpeedRot: 1
   clockwise: 1
@@ -129,12 +128,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f31c8ca17585f1f46b224fff0b1d5f71,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f31c8ca17585f1f46b224fff0b1d5f71,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 1
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f31c8ca17585f1f46b224fff0b1d5f71,
         type: 3}
@@ -149,7 +148,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f31c8ca17585f1f46b224fff0b1d5f71,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 180
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f31c8ca17585f1f46b224fff0b1d5f71,
         type: 3}
@@ -171,14 +170,74 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d7340e533866f0e448e6057431ac262a, type: 2}
+    - target: {fileID: -4569542908062256502, guid: f31c8ca17585f1f46b224fff0b1d5f71,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 86.350174
+      objectReference: {fileID: 0}
+    - target: {fileID: -4569542908062256502, guid: f31c8ca17585f1f46b224fff0b1d5f71,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 86.350174
+      objectReference: {fileID: 0}
+    - target: {fileID: -4569542908062256502, guid: f31c8ca17585f1f46b224fff0b1d5f71,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 86.350174
+      objectReference: {fileID: 0}
+    - target: {fileID: -4569542908062256502, guid: f31c8ca17585f1f46b224fff0b1d5f71,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4569542908062256502, guid: f31c8ca17585f1f46b224fff0b1d5f71,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.057
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f31c8ca17585f1f46b224fff0b1d5f71,
         type: 3}
       propertyPath: m_Name
       value: Whirlpool
       objectReference: {fileID: 0}
+    - target: {fileID: 2772311674619957648, guid: f31c8ca17585f1f46b224fff0b1d5f71,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772311674619957648, guid: f31c8ca17585f1f46b224fff0b1d5f71,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772311674619957648, guid: f31c8ca17585f1f46b224fff0b1d5f71,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772311674619957648, guid: f31c8ca17585f1f46b224fff0b1d5f71,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772311674619957648, guid: f31c8ca17585f1f46b224fff0b1d5f71,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: df263da94e2a595489a6b8c891b43800, type: 2}
+    - target: {fileID: 3764040436741036001, guid: f31c8ca17585f1f46b224fff0b1d5f71,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d7340e533866f0e448e6057431ac262a, type: 2}
     - target: {fileID: 6390812497607578777, guid: f31c8ca17585f1f46b224fff0b1d5f71,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6390812497607578777, guid: f31c8ca17585f1f46b224fff0b1d5f71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

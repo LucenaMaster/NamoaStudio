@@ -8,7 +8,7 @@ public class RotAround : MonoBehaviour
 {
     //Material
     //public Material WhirlpoolMat;
-    Material WhirlpoolMat = GetComponent<Renderer>().M_Whirlpool;
+    
 
     //boat
     public Transform BoatRef;
@@ -37,7 +37,7 @@ public class RotAround : MonoBehaviour
 
     private void Start()
     {
-        
+   
     }
 
     // Update is called once per frame
